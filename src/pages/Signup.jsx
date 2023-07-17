@@ -13,6 +13,7 @@ const SignupPage = () => {
 
   return (
     <div className="signup-page">
+    <h1>Signup Page</h1>
       <label>Email</label>
       <input
         onChange={(e) => setEmail(e.target.value)}
